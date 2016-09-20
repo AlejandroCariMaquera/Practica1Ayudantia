@@ -5,13 +5,23 @@
 	font-weight: lighter;
 }
 html,body{
-	background-color: #e2e2e2;
+	background-color: #dcdcdc;
+	background: linear-gradient(left top, red, yellow);
 	text-align: center;
 }
-
+h1{
+	color: white ;
+	text-shadow:5px 5px 3px #75b6dc;
+	font-size: 45px;
+}
+h2{
+	color: white ;
+	text-shadow:5px 5px 3px #75b6dc;
+	font-size: 30px;
+}
 section#formulario{
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	left: 50%;
 	margin-left: -200px;
 	margin-top: -250px;
@@ -38,10 +48,34 @@ input[type="text"]{
 	background-color: #dcdcdc;
 	border-radius: 5px;
 }
-input[type="submit"]{
+input[type="number"]{
+	width: 50px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: #dcdcdc;
+	border-radius: 5px;
+}
+input[type="date"]{
+	width: 150px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: #dcdcdc;
+	border-radius: 5px;
+}
+button[type="submit"]{
 	margin: 20px;
 	margin-bottom: 20px;
-	width: 360;
+	width: 360px;
 	height: 40px;	
 	outline: none;
 	border: 0px;
@@ -50,4 +84,19 @@ input[type="submit"]{
 	font-size: 1.2em;
 	border-radius: 5px;
 	-webkit-box-shadow:0px 5px 0px #659dbf;
+	cursor: pointer;
 }
+img{
+	position: relative;
+	
+	margin-left: 10px;
+	margin-top: 330px;
+	width: 400px;
+	min-height: 100px;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px black;
+
+}
+
