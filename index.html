@@ -21,12 +21,51 @@
 			<button type="submit" onclick="document.getElementById('demo').innerHTML= Date()" class="btn btn-primary">Submit</button>
 	
 			<p id="demo"></p>
-			
+	
 		</form>
 	</section>
 	<img src="images/descarga.jpg" alt="Mountain View" style="width:304px;height:228px;">
-	<h2>Bienvenido a ubuntu</h2>
+	
+	<ul id="a" class="a">Elemento 1</ul>
+	<ul id="a" class="a">Elemento 2</ul>
+	<ul id="a" class="a">Elemento 3</ul>
+
+	<button type="button" onclick="document.getElementById('a').innerHTML='hoolaaaa'">click me</button>
 	
 
+
+	<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+	style="background-color:#D94A38;width:120px;height:20px;padding:40px;color:blue;">
+	oso</div>
+
+	<script>
+	function mOver(obj) {obj.innerHTML = "Thank You"}
+
+	function mOut(obj) {obj.innerHTML = "Mouse Over Me"}
+	</script>
+	<h2>Ejercicio 5</h2> <br>
+	<!--
+	<form action="">
+	
+	
+	<p>Producto de numeros</p> <br>
+    	Numero 1:<input type="text"  id="numero1" placeholder="ingrese un numero"> <br>
+    	Numero 2:<input type="text"  id="numero2" placeholder="ingrese un numero"> <br>
+    	Resultado:<input type="text"  id="resultado"> <br>
+    	<button type="submit" class="btn btn-default" onclick="res()">Producto</button> <br>
+
+	</form>
+	-->
+	<p>introduzca dos numeros</p>
+	
+	<form action="">
+   		<input type="text"  id="numero1"><br>
+    	<input type="text"  id="numero2"><br>
+    	<input type="submit" value="Multiplicar" id="multiplicar"><br>
+
+	</form>
+	Resultado: <span class="resultado"> </span>
+
+	<script src="js/index.js"></script>
 </body>
 </html>

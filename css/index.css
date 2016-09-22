@@ -5,8 +5,7 @@
 	font-weight: lighter;
 }
 html,body{
-	background-color: #dcdcdc;
-	background: linear-gradient(left top, red, yellow);
+	background: -webkit-linear-gradient(top, #dcdcdc 0%, #299300 100%);
 	text-align: center;
 }
 h1{
@@ -14,20 +13,15 @@ h1{
 	text-shadow:5px 5px 3px #75b6dc;
 	font-size: 45px;
 }
-h2{
-	color: white ;
-	text-shadow:5px 5px 3px #75b6dc;
-	font-size: 30px;
-}
 section#formulario{
 	position: absolute;
 	top: 55%;
 	left: 50%;
 	margin-left: -200px;
-	margin-top: -250px;
+	margin-top: -280px;
 	width: 400px;
 	min-height: 100px;
-	background-color: white;
+	background-color: #585858;
 	overflow: hidden;
 	border-radius: 5px;
 }
@@ -90,7 +84,7 @@ img{
 	position: relative;
 	
 	margin-left: 10px;
-	margin-top: 330px;
+	margin-top: 350px;
 	width: 400px;
 	min-height: 100px;
 	background-color: white;
@@ -98,5 +92,18 @@ img{
 	border-radius: 20px;
 	box-shadow: 10px 10px 5px black;
 
+}
+ul[class="a"]{	
+	width: 300px;
+	text-align: left;
+	height: 35px;
+	margin-left: 530px;
+	margin-top: 10px;
+	padding-left: 20px;
+	font-size: 1.8em;
+	
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: -webkit-linear-gradient(left, #dcdcdc 0%, red 100%);
 }
 
