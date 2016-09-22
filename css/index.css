@@ -39,7 +39,7 @@ input[type="text"]{
 	font-size: 1.1em;
 	outline: none;
 	border: 0px;
-	background-color: #dcdcdc;
+	background-color: white;
 	border-radius: 5px;
 }
 input[type="number"]{
