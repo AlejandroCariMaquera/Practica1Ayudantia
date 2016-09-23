@@ -22,7 +22,7 @@ document.getElementById("calcular").onclick = function(){
         item.innerHTML = parseInt(Math.random()*100)+1;
         lista.appendChild(item);
     }
-    document.getElementsByTagName("body")[0].appendChild(lista);
+    document.getElementsByClassName("aleatorios")[0].appendChild(lista);
     return false;
 }
 

@@ -93,7 +93,7 @@ img{
 	box-shadow: 10px 10px 5px black;
 
 }
-ul[class="a"]{	
+ul[id="a"]{	
 	width: 300px;
 	text-align: left;
 	height: 35px;
@@ -101,9 +101,10 @@ ul[class="a"]{
 	margin-top: 10px;
 	padding-left: 20px;
 	font-size: 1.8em;
-	
+	color: red;
+	border-left: 10px solid black;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
-	background: -webkit-linear-gradient(left, #dcdcdc 0%, red 100%);
+	background: -webkit-linear-gradient(left, #dcdcdc 0%, #faf902 100%);
 }
 
